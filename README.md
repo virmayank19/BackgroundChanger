@@ -11,7 +11,7 @@ We can describe this process in a straightforward way.
 - Then the adds the area of the image and replaces it with thearea which has the desired colour 
 
 I also used dilation to remove the grainy effect and smoothen the desired area.
-##How to use
+## How to use
 If you want to capture the image which you want to apply then first run BackgroundCapture and if you want to add some other image then replace it with the image in the file location.
 
 Built this project in **python** language with the help of **OpenCv** library.
