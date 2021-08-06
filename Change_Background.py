@@ -8,10 +8,18 @@ cap = cv2.VideoCapture(0)
 # url = "https://192.168.0.101:8080/video"
 # cap = cv2.VideoCapture(url)
 
+def resize(dst,img):
+	width = img.shape[1]
+	height = img.shape[0]
+	dim = (width, height)
+	resized = cv2.resize(dst, dim, interpolation = cv2.INTER_AREA)
+	return resized
+
 back=cv2.imread('./image.jpg')
 
 while (cap.isOpened()):
     ret, frame=cap.read()
+    back = resize(back,frame)
     # Here return is true if web cam is working and false otherwise
     # frame is the frames capturing by webcam
 
@@ -26,14 +34,17 @@ while (cap.isOpened()):
        hsv_red=cv2.cvtColor(red,cv2.COLOR_BGR2HSV)
 
        #threshold value to get red colour
-       lower_red=np.array([0,100,100])
-       higher_red=np.array([10,255,255])
+       # lower_red=np.array([0,100,100])
+       # higher_red=np.array([10,255,255])
 
        # lower_blue = np.array([110, 50, 50])
        # higher_blue = np.array([130, 255, 255])
 
+       lower_blue = np.array([170, 50, 50])
+       higher_blue = np.array([180, 255, 255])
+
        #all things are red
-       mask=cv2.inRange(hsvFrame,lower_red,higher_red)
+       mask=cv2.inRange(hsvFrame,lower_blue,higher_blue)
        #cv2.imshow("mask",mask)
 
        kernel = np.ones((5, 5), np.uint8)

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a20d3b7-3449-481c-815b-7d6c17d41d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_video.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Change_Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/Change_Background.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,30 +114,30 @@
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624123706580" />
     <state x="526" y="120" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1628068880628" />
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1628071143675">
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1628253978058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624807282305" />
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1628071143675" />
-    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1628071143675">
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1628253978058" />
+    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1628253978058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1624807282305" />
-    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1628071143675" />
-    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1628071143675">
+    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1628253978058" />
+    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1628253978058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1624807282304" />
-    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1628071143675" />
-    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1628071143675">
+    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1628253978058" />
+    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1628253978058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1624807282305" />
-    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1628071143675" />
-    <state x="421" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1628140850356">
+    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1628253978058" />
+    <state x="421" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1628253425415">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1624807204097" />
-    <state x="421" y="207" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1628140850356" />
+    <state x="421" y="207" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1628253425415" />
   </component>
 </project>
